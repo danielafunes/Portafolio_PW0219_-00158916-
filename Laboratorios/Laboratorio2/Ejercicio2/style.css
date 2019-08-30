@@ -1,10 +1,63 @@
 .btn{
      border: 1px solid transparent;
      border-radius: 0.3em;
+     box-shadow: none;
+     padding: 1em;
+     opacity: 0.8;
+     text-transform: uppercase;
+    
+    }
+btn.hover{
+    opacity: 1;
+}
+button.btn.small{font-size: 0.7em;}
+button.btn.big{font-size: 1.1em;}
+
+
+  
+button.btn.black{  
+    background-color:#1A237E;
+    color:white;
+}
+button.btn.green{
+    background-color:#4CAF50;
+    color:white;
+
+}
+
+button.btn.sky{
+    background-color:#00BCD4;
+    color:white;
+
+}
+
+button.btn.purple{
+    background-color:#673AB7;
+    color:white;
+
+}
+button.btn.border{
+    background-color: transparent;
+    border-color:#1A237E;
+    color:#1A237E;
+   
 }
 
 
+button.border.green{
+     border-color:#4CAF50;
+     color:#4CAF50;
+   
+}
 
+button.border.sky{
+    border-color:#00BCD4;
+    color:#00BCD4;
+  
+}
 
-
-
+button.border.sky{
+    border-color:#673AB7;
+    color:#673AB7;
+  
+}
