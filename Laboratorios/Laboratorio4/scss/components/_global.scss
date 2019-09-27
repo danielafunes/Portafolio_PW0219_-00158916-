@@ -11,9 +11,6 @@ $color-secundario: black;
 .conteiner{
     background-color: $color-primario;
     background-color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+  
 }
 
