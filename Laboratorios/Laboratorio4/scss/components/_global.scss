@@ -1,0 +1,19 @@
+$color-primario: white;
+$color-secundario: black;
+
+@mixin set-dimensions($width,$height) {
+    width: $width;
+    height: $height;
+     
+}
+
+
+.conteiner{
+    background-color: $color-primario;
+    background-color: $color-secundario;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+

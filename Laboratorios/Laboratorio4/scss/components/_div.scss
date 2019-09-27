@@ -1,0 +1,25 @@
+div {
+    background-image: url(https://besthqwallpapers.com/Uploads/11-5-2019/91048/thumb2-colorful-abstraction-colored-square-background-geometric-abstraction-retro-colorful-background-triangles-background.jpg);
+  }
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    flex-wrap: wrap;    
+    flex-shrink: 0;
+}
+
+.enlaces>a{
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+
+    
+}
+a>img{
+    width: inherit;
+    height: inherit;
+    border-radius: 30px;
+    border: 0.5px solid black;
+}
